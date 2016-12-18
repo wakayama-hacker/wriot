@@ -1,4 +1,6 @@
-# Starter kit for a Riot based web app
+# Riot based single page application template
+
+[![Build Status](https://travis-ci.org/wakayama-hacker/wriot.svg?branch=master)](https://travis-ci.org/wakayama-hacker/wriot)
 
 ## Getting started
 
