@@ -1,9 +1,10 @@
 {
   "name": "wapp",
   "version": "1.0.0",
-  "description": "Bootstrap for a SPA",
+  "description": "Riot based SPA project template",
   "main": "index.html",
   "scripts": {
+    "start": "http-server -io",
     "build": "riot tags/ js/tags.js && gulp build",
     "test": "npm run build && karma start"
   },
@@ -14,6 +15,7 @@
     "expect.js": "^0.3.1",
     "gulp": "^3.9.1",
     "gulp-uglify": "^2.0.0",
+    "http-server": "^0.9.0",
     "jquery": "^3.1.1",
     "karma": "^1.3.0",
     "karma-mocha": "^1.3.0",
