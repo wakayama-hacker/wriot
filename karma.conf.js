@@ -15,7 +15,7 @@ module.exports = function(config) {
       'tests/**/*.js'
     ],
     preprocessors: {
-      '**/*.tag': ['riot']
+      'tags/*.tag': ['riot']
     },
     browsers: ['PhantomJS'],
     reporters: ['mocha'],
